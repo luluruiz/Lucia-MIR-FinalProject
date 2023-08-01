@@ -1,0 +1,135 @@
+body {
+    background-color: #B4E1FF;
+
+}
+
+main { 
+    height: 100vh;
+}
+
+@font-face {
+    font-family: "Righteous";
+    src: url(/resources/Righteous/Righteous-Regular.ttf);
+}
+.title { 
+    color: rgb(255, 120, 185);
+    font-family: "Righteous";
+ 
+}
+P {
+    color: rgb(255, 120, 185);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.about-container {
+    display: flex;
+    border-radius: 2% 10% 10% 2%; 
+    background-color: blanchedalmond;
+    height: 80vh;
+    justify-content: space-between;
+}
+.about-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 10px;
+    width: 40%;
+
+}
+
+.hello{
+    color: rgb(162, 0, 255);
+    font-family: "Righteous";
+}
+.neko-container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    padding-right: 30px;
+    width: fit-content;
+
+    }
+
+    .neko{
+        align-self: center;
+        border-radius: 20px 20px;
+    }
+
+
+
+
+.buttonCat{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(245, 179, 236);
+    border-radius: 50%;
+    border-color:rgb(245, 179, 236)
+}
+
+.buttonDog{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(245, 179, 236);
+    border-radius: 50%;
+    border-color:rgb(245, 179, 236);
+   
+    
+}
+
+/* footter and arrows */
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 100px;
+    background-color: #C1FF9B;
+    justify-content: center;
+}
+
+.arrow-container {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+
+    
+}
+
+.arrow-right {
+    background-image: url(/resources/right-arrow.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center ;
+    width: 100px;
+    text-decoration: none;
+    border: none;
+    background-color: #C1FF9B;
+
+
+
+}
+
+.arrow-left {
+    background-image: url(/resources/left-arrow\ copy.png);
+    transform: rotateX(180deg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center ;
+    width: 100px;
+    text-decoration: none;
+    border: none;
+    background-color: #C1FF9B;
+    
+    
+}
+
+/* .githublogo {
+    display: flex;
+    flex-flow: column wrap;
+    border-radius: 50%;
+    width: 50px;
+    padding: 10px 10px 10px 10px ;
+
+} */
