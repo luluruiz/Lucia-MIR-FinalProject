@@ -33,3 +33,30 @@ document.addEventListener('DOMContentLoaded', function () {
     // Attach the click event to the button
     buttonDog.addEventListener('click', addNumber);
   });
+
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const arrowleft = document.getElementById('arrowleft');
+  
+    function goToIndex() {
+      const newIndex = 'indexlu.html'; 
+      window.location.href = newIndex;
+    }
+  
+    // Attach the click event to the button
+    arrowleft.addEventListener('click', goToIndex);
+  });
+
+
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const arrowright = document.getElementById('arrowright');
+  
+    function goToIndex() {
+      const newIndex = 'indexlu.html'; 
+      window.location.href = newIndex;
+    }
+  
+    // Attach the click event to the button
+    arrowright.addEventListener('click', goToIndex);
+  });

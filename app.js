@@ -13,18 +13,5 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
 
-// document.addEventListener('click', function () {
-//     const catNumberButton = document.getElementById('buttonCat');
-  
-
-//     function catNumber() {
-
-//     let catNumber = [0,1,2,3];
-//     for (let i = 0; i < catNumber.length; i++) {
-
-//         buttonCat.addEventListener("click", catNumber);}
-//     }});
-    
-
     
  
