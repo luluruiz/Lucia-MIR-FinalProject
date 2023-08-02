@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', function () {
       window.location.href = newIndex;
     }
   
-    // Attach the click event to the button
     changeIndexButton.addEventListener('click', goToNewIndex);
   });
 

@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const buttonCat = document.getElementById('buttonCat');
     let count = 0;
   
-    // Function to handle the button click event
     function addNumber() {
       count++;
   
@@ -11,7 +10,6 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     }
   
-    // Attach the click event to the button
     buttonCat.addEventListener('click', addNumber);
   });
 
@@ -20,7 +18,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const buttonDog = document.getElementById('buttonDog');
     let count = 0;
   
-    // Function to handle the button click event
     function addNumber() {
       count++;
   
@@ -30,10 +27,10 @@ document.addEventListener('DOMContentLoaded', function () {
   
     }
   
-    // Attach the click event to the button
     buttonDog.addEventListener('click', addNumber);
   });
 
+  // arrow index
 
   document.addEventListener('DOMContentLoaded', function () {
     const arrowleft = document.getElementById('arrowleft');
@@ -43,11 +40,11 @@ document.addEventListener('DOMContentLoaded', function () {
       window.location.href = newIndex;
     }
   
-    // Attach the click event to the button
     arrowleft.addEventListener('click', goToIndex);
   });
 
 
+  // arrow projects
 
   document.addEventListener('DOMContentLoaded', function () {
     const arrowright = document.getElementById('arrowright');

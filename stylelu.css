@@ -24,6 +24,12 @@ P {
 
 }
 
+h3 {
+    color: rgb(162, 0, 255);
+    font-family: "Righteous";
+    font-size: 20px;  
+}
+
 .about-container {
     display: flex;
     /* flex-flow: row wrap; */
