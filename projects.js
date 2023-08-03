@@ -25,3 +25,4 @@
     // Attach the click event to the button
     arrowright.addEventListener('click', goToIndex);
   });
+
