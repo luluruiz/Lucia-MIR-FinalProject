@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const arrowright = document.getElementById('arrowright');
   
     function goToIndex() {
-      const newIndex = 'indexlu.html'; 
+      const newIndex = 'projects.html'; 
       window.location.href = newIndex;
     }
   

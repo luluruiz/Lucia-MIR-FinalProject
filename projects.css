@@ -1,0 +1,68 @@
+body {
+    background-color: #B4E1FF;
+
+}
+
+main { 
+    min-height: 100vh;
+}
+
+/* footter and arrows */
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 100px;
+    background-color: #C1FF9B;
+    justify-content: center;
+    min-height: 50px;
+}
+
+.arrow-container {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+
+    
+}
+
+.arrow-right {
+    background-image: url(/resources/right-arrow.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center ;
+    width: 100px;
+    text-decoration: none;
+    border: none;
+    background-color: #C1FF9B;
+    border-radius: 20%;
+
+}
+
+.arrow-right:hover {
+    background-color: rgba(119, 216, 248, 0.552);
+    transition: 0.3s ;
+  }
+
+.arrow-left {
+    background-image: url(/resources/left-arrow\ copy.png);
+    transform: rotateX(180deg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center ;
+    width: 100px;
+    text-decoration: none;
+    border: none;
+    background-color: #C1FF9B;
+    border-radius: 20%;
+    
+    
+}
+
+
+.arrow-left:hover {
+    background-color: rgba(218, 173, 255, 0.745);
+    transition: 0.3s ;
+  }
+
