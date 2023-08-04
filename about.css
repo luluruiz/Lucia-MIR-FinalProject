@@ -1,10 +1,7 @@
 body {
     background-color: #B4E1FF;
+    min-height: 100vh;
 
-}
-
-main { 
-    height: 100vh;
 }
 
 @font-face {
@@ -32,22 +29,20 @@ h3 {
 
 .about-container {
     display: flex;
-    flex-flow: row wrap;
-    border-radius: 2% 10% 2% 2%; 
-    background-color: blanchedalmond;
-    height: 80vh;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 0px 20px 0px 0px;
+    background-color : blanchedalmond;
+    padding: 40px;
+    height: 500px;
 }
+
 .about-info {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    order: 1;
     justify-content: space-evenly;
-    padding: 0 0 0 10px;
-    width: 40%;
-    /* position: absolute; */
-
-
+    font-family: monospace;
+    font-size: 15px;
 }
 
 .hello{
@@ -58,36 +53,25 @@ h3 {
     
 }
 
+
 .petsContainer {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    align-self: center;
     align-items: flex-start;
-    order: 2;
-    padding: 0 10px 0 10px;
-    width: 20%;
-
+    padding: 0 15px 0 15px;
 }
+
 .neko-container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-self: center;
-    padding-right: 30px;
-    order: 3;
-    
-    
 }
-    
 
-    .neko{
-        display: flex;
-        flex-direction: row-reverse;
-        align-self: center;
-        border-radius: 20px 20px;
-    }
 
+
+.neko {
+    display: flex;
+    border-radius: 20px 20px;
+    height: 300px;
+}
 
 
 .buttonCat{
@@ -166,15 +150,3 @@ h3 {
     transition: 0.3s ;
   }
 
-
-
-
-
-/* .githublogo {
-    display: flex;
-    flex-flow: column wrap;
-    border-radius: 50%;
-    width: 50px;
-    padding: 10px 10px 10px 10px ;
-
-} */

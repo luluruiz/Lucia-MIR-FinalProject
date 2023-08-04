@@ -1,0 +1,40 @@
+body{
+    background-color: #AB87ff;
+    display: flex;
+   
+}
+
+.hello-btn {
+    background-image: url(/resources/HELLO-CLICK.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 180px;
+    width: 300px;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+
+.button:hover {
+    background-color: #ff8080;
+  }
+
+.title-container {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+  .hello-btn:before {
+    height: 0%;
+    width: 2px;
+  }
+  .hello-btn:hover {
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+      inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+  } 

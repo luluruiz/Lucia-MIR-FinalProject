@@ -1,10 +1,158 @@
 body {
     background-color: #B4E1FF;
+    min-height: 100vh;
+
+}
+@font-face {
+    font-family: "Righteous";
+    src: url(/resources/Righteous/Righteous-Regular.ttf);
+}
+
+
+.title { 
+    color: rgb(255, 120, 185);
+    font-family: "Righteous";
+    margin-bottom: 0;
+    padding-bottom: 10px;
+ 
+}
+
+
+.container-projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 0px 20px 0px 0px;
+    background-color : blanchedalmond;
+    padding: 50px;
+    gap: 90px;
+}
+
+.item1,.item2,.item3,.item4, .item5, .item6 {
+    display: flex;
+    height: 200PX;
+    width: 200px;
+   
+}
+
+.dnd {
+    display: flex;
+    border-radius: 20% 0 20% 0;
+    background-image: cover;
+}
+
+
+
+.ramencat{
+    display: flex;
+    border-radius: 20% 0 20% 0;
 
 }
 
-main { 
-    min-height: 100vh;
+
+.deer {
+    display: block;
+    border-radius: 20% 0 20% 0;
+ 
+}
+
+
+
+.punch1 {
+    display: flex;
+    border-radius: 20% 0 20% 0;
+
+}
+
+
+
+.punch2 {
+    display: flex;
+    border-radius: 20% 0 20% 0;
+ 
+}
+
+
+.githublink {
+    display: flex;
+    background-size: cover;
+    border-radius: 20% 0 20% 0;
+
+}
+
+
+.figcaption {
+    font-size: 12px;
+    position: relative;
+    display: flex;
+    padding: 10px;
+    align-items: flex-end;
+    font-family: monospace;
+}
+
+.contact-me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+
+}
+
+
+.contact-me-button {
+    background-image: url(resources/yo.JPG);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    border-radius: 100px;
+    display: flex;
+    
+}
+
+.contact-me-text {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: monospace;
+    font-size: 15px;
+ 
+}
+
+#contact-form{
+    font-family: monospace;
+    font-size: 15px;
+    display: flex;
+    flex-flow: column wrap; 
+    padding: 30px;
+    align-content: center;
+}
+
+
+.hidden {
+    display: none;
+} 
+
+
+form input[type="text"],
+form input[type="email"],
+form input[type="city"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px; 
+  margin-bottom: 10px;
+}
+
+.enviar{
+    font-family: monospace;
+    border-radius: 50px;
+    padding: 8px;
+    background-color:rgb(187, 104, 255);
+    color: white;
+    display: flex;
+    align-self: center;
 }
 
 /* footter and arrows */

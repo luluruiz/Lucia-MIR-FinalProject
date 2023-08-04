@@ -18,11 +18,19 @@
     const arrowright = document.getElementById('arrowright');
   
     function goToIndex() {
-      const newIndex = 'index.html'; 
+      const newIndex = 'indexlu.html'; 
       window.location.href = newIndex;
     }
   
-    // Attach the click event to the button
     arrowright.addEventListener('click', goToIndex);
   });
 
+
+  const contactButton = document.getElementById('contactButton');
+  const contactForm = document.getElementById('contactForm');
+  
+  contactButton.addEventListener('click', () => {
+      
+      contactForm.classList.toggle('hidden');
+  });
+  

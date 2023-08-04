@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-    <link rel="stylesheet" href="/projects.css"/>
+    <link rel="stylesheet" href="projects.css"/>
+    
     <title> 📝 Projects</title>
 </head>
 <body>
@@ -12,8 +13,85 @@
     <main>
         <h1 class="title"> Mis Proyectos 👩🏻‍💻</h1>
 
+        <div class="container-projects"> 
+            <div class="item1">
+                <img src="resources/proyectos/dnd.jpg" alt="dnd" class="dnd">
+                <figcaption class="figcaption">DnD Sticker in Procreate</figcaption>
+            </div>
+
+            <div class="item2">
+                <img src="resources/proyectos/ramencat.jpg" alt="ramencat" class="ramencat">
+                <figcaption class="figcaption">RamenCat in Illustrator</figcaption>
+            </div>
+
+            <div class="item3">
+                <img src="resources/proyectos/holidays.jpg" alt="deer" class="deer">
+                <figcaption class="figcaption"> Xmas in Procreate</figcaption>
+            </div>
+
+            <div class="item4">
+                <img src="resources/proyectos/punch1.jpg" alt="punch1" class="punch1">
+                <figcaption class="figcaption"> Dinosaurio en bordado tipo punch needle</figcaption>
+            </div>
+
+            <div class="item5"> 
+                <img src="resources/proyectos/punch2.jpg" alt="punch2" class="punch2">
+                <figcaption class="figcaption"> Dinosaurio en bordado tipo punch needle</figcaption>
+            </div>
+
+
+            <div class="item6">
+                <a href="https://github.com/luluruiz">
+                    <img src="resources/github.png" alt="githublogo" class="githublink">
+                </a>
+                
+            </div>
+            
+
+
 
     </main>
+    <div class="contact-me" >
+        <button  class="contact-me-button" id="contactme"></button>
+        <p class="contact-me-text">Contactame para conocer mas acerca de mi ☝️</p>
+ 
+     </div>
+
+
+     <div id="contact-form" class="hidden">
+        <h2>Escribeme🌷</h2>
+        <form class="form">
+            <label for="name"> Tu nombre 🤓:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Tu email 💌:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            
+            <label for="city"> Ciudad</label>
+            <select id="city" name="city">
+                <option value="" disabled="" selected=""> Selecciona tu ciudad </option>
+                <option value="Medellin" selected="">Medellin 🍃</option>
+                <option value="Bogota" selected="">Bogota 🏙️</option>
+                <option value="Santa Marta" selected="">Santa Marta🏝️</option>
+    
+            </select>
+            <br>
+            
+            <label for="message">Tu mensaje:</label>
+            <br>
+            
+            <textarea id="message" name="message" rows="4" required placeholder="Con que puedo colaborarte?"></textarea>
+            <br>
+            <button class="enviar" type="submit">Click para conectarnos 🌸</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
     <footer class="footer-container">
         <div class="arrow-container">
                 <button class="arrow-left" id="arrowleft" title="arrowleft">
