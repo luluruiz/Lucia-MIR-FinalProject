@@ -26,7 +26,7 @@ body {
     justify-content: space-evenly;
     border-radius: 0px 20px 0px 0px;
     background-color : blanchedalmond;
-    padding: 50px;
+    padding: 30px;
     gap: 90px;
 }
 
@@ -128,12 +128,6 @@ body {
     align-content: center;
 }
 
-
-.hidden {
-    display: none;
-} 
-
-
 form input[type="text"],
 form input[type="email"],
 form input[type="city"],
@@ -213,3 +207,19 @@ form textarea {
     transition: 0.3s ;
   }
 
+
+  /* media queries */
+
+@media (max-width: 767px) {
+    .container-projects {
+   padding: 5px;
+   margin-left: 2px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+  }
+  
+  @media (min-width: 1024px) {
+  }
+  
