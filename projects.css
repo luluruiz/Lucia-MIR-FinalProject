@@ -5,7 +5,7 @@ body {
 }
 @font-face {
     font-family: "Righteous";
-    src: url(/resources/Righteous/Righteous-Regular.ttf);
+    src: url(resources/Righteous/Righteous-Regular.ttf);
 }
 
 
@@ -169,7 +169,7 @@ form textarea {
 }
 
 .arrow-right {
-    background-image: url(/resources/right-arrow.png);
+    background-image: url(resources/right-arrow.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center ;
@@ -187,7 +187,7 @@ form textarea {
   }
 
 .arrow-left {
-    background-image: url(/resources/left-arrow\ copy.png);
+    background-image: url(resources/left-arrow\ copy.png);
     transform: rotateX(180deg);
     background-size: cover;
     background-repeat: no-repeat;
